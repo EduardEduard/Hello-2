@@ -1,0 +1,51 @@
+body {
+    background-color: rgba(135, 206, 235, 0.5);
+    box-sizing: border-box;
+    width: 100%;
+}
+
+h1 {
+    margin: auto;
+}
+
+.logo {
+    display: none;
+    color: aliceblue;
+}
+
+@media screen and (min-width: 1300px) {
+    body {
+        width: 1300px;
+        margin: auto;
+    }
+    
+}
+
+@media screen and (min-width: 900px) {
+    h1 {
+    margin-left: 10%;
+}
+}
+
+@media screen and (min-width: 768px) {
+    .logo {
+        display: flex;
+    }
+}
+
+.hei, 
+.hei div {
+    height: 100%;
+    align-content: center;
+}
+
+[type="button"] {
+    margin: 10%;
+    width: 80%;
+}
+
+p {
+    color: darkgoldenrod;
+    margin: auto;
+    text-align: right;
+}
